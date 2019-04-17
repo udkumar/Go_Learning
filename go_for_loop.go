@@ -18,6 +18,13 @@ func main() {
 		fmt.Println("loop")
 		break
 	}
+	//You can also continue to the next iteration of the loop.
+	for n := 0; n<=5; n++ {
+		if n%2 == 0 {
+			continue
+		}
+		fmt.Println(n)
+	}
 
 	
 }
